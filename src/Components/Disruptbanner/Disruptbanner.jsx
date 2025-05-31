@@ -1,8 +1,12 @@
 import React from 'react';
+import Disputhero from '../DIsputHero/Disputhero';
 
 const Disruptbanner = () => {
     return (
+
         <div>
+            <Disputhero></Disputhero>
+
             <section className="bg-gradient-to-tr"
                 style={{
                     backgroundImage:
