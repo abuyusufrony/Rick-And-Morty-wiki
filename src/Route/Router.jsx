@@ -4,6 +4,7 @@ import Root from '../Root/Root';
 import Banner from '../Banner/Banner';
 import Chardetails from '../Components/Chardetails/Chardetails';
 import Disruptbanner from '../Components/Disruptbanner/Disruptbanner';
+import Build from '../Components/Build/Build';
 
 const Router = createBrowserRouter([{
     path: '/',
@@ -44,6 +45,13 @@ const Router = createBrowserRouter([{
 {
     path: '/disrupt',
     element: <Disruptbanner></Disruptbanner>
+
+
+
+},
+{
+    path: '/build',
+    element: <Build></Build>
 
 
 
