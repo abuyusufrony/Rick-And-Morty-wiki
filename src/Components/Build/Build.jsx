@@ -39,6 +39,7 @@ export default function Hero() {
             {/* Dummy Content to Enable Scroll */}
             <div className="h-[2000px] bg-white">
                 {/* Add your real page content here */}
+                <h2>add page here</h2>
             </div>
         </div>
     );
